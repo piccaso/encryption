@@ -56,4 +56,4 @@
 		openssl_private_decrypt(base64_decode($encryptedext), $decrypted, $private_key);
 		return $decrypted;
 	}
-	
+?>
